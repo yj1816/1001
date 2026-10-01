@@ -1,0 +1,17 @@
+[project]
+name = "1001"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "江昀潔", email = "D1546717@o365.fcu.edu.tw" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+1001 = "1001:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
